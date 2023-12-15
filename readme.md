@@ -1,22 +1,24 @@
 # Langchain Ask PDF (Tutorial)
 
->You may find the step-by-step video tutorial to build this application [on Youtube](https://youtu.be/wUAUdEw5oxM).
+>You may find the step-by-step video tutorial to build this application [on Youtube AiTechNews](https://youtu.be/Ju-kuOX1ag8).
 
 This is a Python application that allows you to load a PDF and ask questions about it using natural language. The application uses a LLM to generate a response about your PDF. The LLM will not answer questions unrelated to the document.
 
-langchain==0.0.316
-openai==0.28.1
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-streamlit==1.18.1
-faiss-cpu==1.7.4
-altair<5
+# Python require libraries
+
+# langchain==0.0.316
+# openai==0.28.1
+# PyPDF2==3.0.1
+# python-dotenv==1.0.0
+# streamlit==1.18.1
+# faiss-cpu==1.7.4
+# altair<5
 
 ## Below code only for local
-pip install PyPDF2 python-dotenv streamlit faiss-cpu
-pip install langchain==0.0.316
-pip install openai==0.28.1
-pip install tiktoken
+# pip install PyPDF2 python-dotenv streamlit faiss-cpu
+# pip install langchain==0.0.316
+# pip install openai==0.28.1
+# pip install tiktoken
 
 ## To run the app 
 streamlit run app.py
